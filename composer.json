@@ -1,0 +1,20 @@
+{
+  "name": "york8/composer-repo",
+  "description": "PHP Composer repo.packagist management tools",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "York",
+      "email": "lianyupeng1988@126.com"
+    }
+  ],
+  "require": {
+    "corneltek/cliframework": "master"
+  },
+  "autoload": {
+    "psr-4": {
+      "York8\\Composer\\Repo\\": "src"
+    }
+  }
+}
